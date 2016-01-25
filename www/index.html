@@ -1,51 +1,550 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js"> <!--<![endif]-->
-<head>
+<html lang="en-US"><head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="shortcut icon" href="http://highschoolglobe.com/wp-content/uploads/2014/08/HSblue.png"><title>High School Globe </title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://highschoolglobe.com/xmlrpc.php">
+ <!--[if lt IE 9]>
+<script src="http://highschoolglobe.com/wp-content/themes/Margot/js/html5shiv.js"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="High School Globe » Feed" href="http://highschoolglobe.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="High School Globe » Comments Feed" href="http://highschoolglobe.com/comments/feed/">
+<link rel="stylesheet" id="GoogleFonts-css" href="http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%7CRoboto%3A400%2C100%2C300%2C500%2C700&amp;ver=1.1" type="text/css" media="all">
+<style type="text/css"></style><link rel="stylesheet" id="Bootstrap-css" href="http://highschoolglobe.com/wp-content/themes/Margot/css/bootstrap.css?ver=3.0.3" type="text/css" media="all">
+<link rel="stylesheet" id="Lib-css" href="http://highschoolglobe.com/wp-content/themes/Margot/css/lib.css?ver=1.1" type="text/css" media="all">
+<link rel="stylesheet" id="Style-css" href="http://highschoolglobe.com/wp-content/themes/Margot/css/main.css?ver=1.1" type="text/css" media="all">
+<link rel="stylesheet" id="Responsive-css" href="http://highschoolglobe.com/wp-content/themes/Margot/css/responsive.css?ver=1.1" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack_css-css" href="http://highschoolglobe.com/wp-content/plugins/jetpack/css/jetpack.css?ver=3.3.3" type="text/css" media="all">
+<div class="fit-vids-style" id="fit-vids-style" style="display: none;">­<style>.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></div><script id="facebook-jssdk" src="//connect.facebook.net/en_US/all.js#xfbml=1"></script><script type="text/javascript" src="http://highschoolglobe.com/wp-includes/js/jquery/jquery.js?ver=1.11.1"></script>
+<script type="text/javascript" src="http://highschoolglobe.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://highschoolglobe.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://highschoolglobe.com/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.0.5">
 
-    <!-- Meta-Information -->
-    <title>SoFreshmen!</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="description" content="ACME Inc.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+a,a:link,a:hover,.single .entry-content > p:first-of-type:first-letter,.mrg-page article #mrg-content .entry-content > p:first-of-type:first-letter,#infscr-loading,.entry-tags:before,.entry-tags,.entry-tags a,.author-cc .mini-author,#mrg-content .media-meta a,.widget ul li a:hover,#footer .widget ul li a:hover,.widget_margot_mostpop .entry-meta a:hover,#footer .widget_margot_mostpop .entry-meta a:hover,#footer a:hover,#footer .btm-nav .current-menu-item a,#footer .btm-nav .current-menu-item a:hover,#footer .btm-nav .sf-menu li.current-menu-item ul li:hover > a,#footer .btm-nav .sf-menu li:hover > a,#footer .btm-nav #menu-footer ul li a:hover,#mrg-wrap .contact-form form span,.share-tw,.share-fb,#mrg-wrap .contact-form .error,  #mrg-wrap .meta-buttons [class*="meta-"], .rad-button, .paging-navigation a, #commentform input#submit, input#submit.rad-button, .single-comment .comment-meta  .cc-reply:before{color:#f53e2a;}.widget_tag_cloud ul li a:hover,#footer .widget_tag_cloud ul li a:hover,.widget_tags_margot ul li a:hover,#footer .widget_tags_margot ul li a:hover,.widget_cats_margot ul li a:hover,#footer .widget_cats_margot ul li a:hover,.widget_quick-flickr-widget ul li img:hover,#footer .widget_quick-flickr-widget ul li img:hover,#mrg-wrap .contact-form .error,.share-tw,.share-fb,.meta-buttons [class*="meta-"], .meta-buttons [class*="meta-"]::after, .widget_tag_cloud ul li a:hover, .widget_tags_margot ul li a:hover, .widget_cats_margot ul li a:hover, .widget_margot_authors ul li a:hover, #footer .widget_margot_authors ul li a:hover, .rad-button, .paging-navigation a, #commentform input#submit, input#submit.rad-button {border-color:#f53e2a !important;}h3.pretitle span,#mrg-nav .sf-menu a:hover,#mrg-nav .sf-menu .current-menu-item a,.btm-nav .sf-menu a:hover,.btm-nav .sf-menu .current-menu-item a{border-bottom-color:#f53e2a !important;}.widget_margot_mostpop h2:hover,#footer .widget_margot_mostpop h2:hover,#wp-calendar #today, #mrg-logo-menu .sf-menu .topics-menu .top-btn-link, .pretag, .score-tag, .ubscore{background-color:#f53e2a !important;}.meta-buttons-w [class*="meta-"], .meta-buttons-w [class*="meta-"]::after {border-color:#fff !important;}#mrg-top{background-color:#111111 !important;}#mrg-social-bar .mini-icons [class*="icon-"], #mrg-logo-bar .site-description, #mrg-logo-bar h1.logo a{color:#ffffff !important;}
+</style>
 
-    <!-- Vendor: Bootstrap Stylesheets http://getbootstrap.com -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f8;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3a5795;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #2f477a;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f8;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style></head>
 
-    <!-- Our Website CSS Styles -->
-    <link rel="stylesheet" href="css/main.css">
+<body class="home blog mrg-wide sticky-nav"> <div id="mrg-page">
 
-</head>
-<body ng-app="tutorialWebApp">
-<!--[if lt IE 7]>
-<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
-    your browser</a> to improve your experience.</p>
+<div id="mrg-top">
+    <div class="container container-header">
+        <div class="row">
+
+            <div id="mrg-social-bar" class="col-md-5 col-md-push-7">
+                <div id="mrg-logo-menu" class="hidden-xs hidden-sm sf-left">
+                    <div class="sf-menu sf-vertical"><ul><li class="page_item page-item-31"><a href="http://highschoolglobe.com/about/">About</a></li><li class="page_item page-item-41"><a href="http://highschoolglobe.com/contact-us/">Contact Us</a></li><li class="page_item page-item-2"><a href="http://highschoolglobe.com/home/">Home</a></li><li class="page_item page-item-43"><a href="http://highschoolglobe.com/privacy/">Privacy</a></li><li class="page_item page-item-45"><a href="http://highschoolglobe.com/terms-of-service/">Terms of Service</a></li><li class="page_item page-item-33"><a href="http://highschoolglobe.com/jobs/">Work WIth Us</a></li></ul></div>
+                </div>
+
+                <div class="mini-icons prep-content">
+                    <a href="https://twitter.com/highschoolglobe"><i class="icon-twitter"><span class="hide">twitter</span></i></a><a href="https://www.facebook.com/pages/The-High-School-Globe/677268769031391"><i class="icon-facebook"><span class="hide">facebook</span></i></a>                </div>
+            </div> 
+            
+            <div id="mrg-logo-bar" class="col-md-7 col-md-pull-5">
+                                <h1 class="logo-img mrg-logo"><a href="http://highschoolglobe.com/" title="High School Globe" rel="home"><img src="http://highschoolglobe.com/wp-content/uploads/2014/08/hsbluefinal.png" alt="High School Globe"></a></h1>
+                        
+                <span class="site-description hidden-xs" style="margin-top:30px;top:10px;">Young Voices on Global Issues</span>            </div>
+
+        </div>
+    </div>
+</div> <!-- /mrg-top -->
+
+
+<div id="mrg-nav" class="mrg-top-nav">
+    <div class="container container-main-nav">
+        <div id="mrg-mobile-nav" class="hidden-md hidden-lg">
+            <i class="icon-menu"><span class="hide">Menu</span></i>
+        </div>
+
+        <nav class="main-nav navbar-section hidden-sm hidden-xs">
+            <ul id="header-menu" class="sf-menu sf-js-enabled sf-arrows"><li class="home-menu current current-menu-item"><a href="http://highschoolglobe.com/" title="Home">Home</a></li><li id="menu-item-8" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8"><a href="http://highschoolglobe.com/category/global-issues/">Global Issues</a></li>
+<li id="menu-item-11" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11"><a href="http://highschoolglobe.com/category/politics/">Politics</a></li>
+<li id="menu-item-98" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-98"><a href="http://highschoolglobe.com/category/business/">Business</a></li>
+<li id="menu-item-12" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12"><a href="http://highschoolglobe.com/category/science/">Science and Technology</a></li>
+<li id="menu-item-10" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10"><a href="http://highschoolglobe.com/category/lifestyle/">Lifestyle</a></li>
+<li id="menu-item-9" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9"><a href="http://highschoolglobe.com/category/high-school/">High School</a></li>
+<li id="menu-item-7" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7"><a href="http://highschoolglobe.com/category/books/">Books</a></li>
+</ul>        </nav>
+
+        <div id="mrg-search-bar">
+            <form class="nav-search" method="get" id="searchfr" action="http://highschoolglobe.com/" role="search">
+                <label for="se" class="assistive-text">Search and hit</label>
+                <input type="text" class="field" name="s" id="se" placeholder="Search…">
+            </form>
+            <div class="srch_btn icon-search"><span class="hidden">Go</span></div>
+        </div>
+    </div>
+</div> <!-- /mrg-nav -->
+
+<div id="nn-wrap">
+
+
+
+<div class="container container-featured-posts active-ov">
+	<div id="mrg-featured-area">
+
+				
+					<div class="mrb-box-top col-sm-12 mrg-featured-grid col-md-4 nopadding">
+
+						<div class="mrg-box mrg-item mrg-item-1">
+
+							<span class="top-ticket icon-ticket">Featured Now</span>
+							
+							<div class="meta-info">
+								<div class="mrg-color-cat color-cats"><a style="color:#fff; border-color:#666666; background:#666666;" class="featured-category" href="http://highschoolglobe.com/category/global-issues/">Global Issues</a> </div>								<h2><a href="http://highschoolglobe.com/the-new-slaves/" title="Permalink to The New Slaves" rel="bookmark">The New Slaves</a></h2>
+							</div>
+
+							<a href="http://highschoolglobe.com/the-new-slaves/" class="link-border">
+																<img class="hidden-xs hidden-sm" src="http://highschoolglobe.com/wp-content/uploads/2015/04/11a2834085def4d5f963e83abe4bb0e7-380x520.jpg" alt="The New Slaves">
+									<img class="hidden-md hidden-lg" src="http://highschoolglobe.com/wp-content/uploads/2015/04/11a2834085def4d5f963e83abe4bb0e7-750x550.jpg" alt="The New Slaves">
+														<div class="mrg-chroma"></div>
+							</a>
+
+						</div> <!-- /mrg-box -->
+						
+					</div>
+
+				
+					<div class="col-xs-6 col-sm-6 mrg-featured-grid col-md-4 nopadding">
+
+						<div class="mrg-box mrg-item mrg-item-2">
+
+							
+							
+							<div class="meta-info">
+								<div class="mrg-color-cat color-cats"><a style="color:#fff; border-color:#333; background:#333;" class="featured-category" href="http://highschoolglobe.com/category/national-issues/">National Issues</a> </div>								<h2><a href="http://highschoolglobe.com/cruz-control-breaking-down-the-2016-nominees/" title="Permalink to Cruz Control: Breaking Down the 2016 Nominees" rel="bookmark">Cruz Control: Breaking Down the 2016 Nominees</a></h2>
+							</div>
+
+							<a href="http://highschoolglobe.com/cruz-control-breaking-down-the-2016-nominees/" class="link-border">
+																<img src="http://highschoolglobe.com/wp-content/uploads/2015/04/flag-75047_1280-380x260.jpg" alt="Cruz Control: Breaking Down the 2016 Nominees">
+														<div class="mrg-chroma" style="display: block;"></div>
+							</a>
+
+						</div> <!-- /mrg-box -->
+						
+					</div>
+
+				
+					<div class="col-xs-6 col-sm-6 mrg-featured-grid col-md-4 nopadding">
+
+						<div class="mrg-box mrg-item mrg-item-3">
+
+							
+							
+							<div class="meta-info">
+								<div class="mrg-color-cat color-cats"><a style="color:#fff; border-color:#333; background:#333;" class="featured-category" href="http://highschoolglobe.com/category/national-issues/">National Issues</a> </div>								<h2><a href="http://highschoolglobe.com/my-truth-beats-yours/" title="Permalink to My Truth Beats Yours" rel="bookmark">My Truth Beats Yours</a></h2>
+							</div>
+
+							<a href="http://highschoolglobe.com/my-truth-beats-yours/" class="link-border">
+																<img src="http://highschoolglobe.com/wp-content/uploads/2015/04/o-NEWS-CAMERA-facebook-380x260.jpg" alt="My Truth Beats Yours">
+														<div class="mrg-chroma" style="display: block;"></div>
+							</a>
+
+						</div> <!-- /mrg-box -->
+						
+					</div>
+
+				
+					<div class="col-xs-6 col-sm-6 mrg-featured-grid col-md-4 nopadding">
+
+						<div class="mrg-box mrg-item mrg-item-4">
+
+							
+							
+							<div class="meta-info">
+								<div class="mrg-color-cat color-cats"><a style="color:#fff; border-color:#666666; background:#666666;" class="featured-category" href="http://highschoolglobe.com/category/high-school/">High School</a> </div>								<h2><a href="http://highschoolglobe.com/the-problem-of-privilege/" title="Permalink to The Problem of Privilege" rel="bookmark">The Problem of Privilege</a></h2>
+							</div>
+
+							<a href="http://highschoolglobe.com/the-problem-of-privilege/" class="link-border">
+																<img src="http://highschoolglobe.com/wp-content/uploads/2015/04/o-RICH-PEOPLE-facebook-380x260.jpg" alt="The Problem of Privilege">
+														<div class="mrg-chroma"></div>
+							</a>
+
+						</div> <!-- /mrg-box -->
+						
+					</div>
+
+				
+					<div class="col-xs-6 col-sm-6 mrg-featured-grid col-md-4 nopadding">
+
+						<div class="mrg-box mrg-item mrg-item-5">
+
+							
+							
+							<div class="meta-info">
+								<div class="mrg-color-cat color-cats"><a style="color:#fff; border-color:#666666; background:#666666;" class="featured-category" href="http://highschoolglobe.com/category/global-issues/">Global Issues</a> </div>								<h2><a href="http://highschoolglobe.com/cultural-understanding-connects-countries/" title="Permalink to Cultural Understanding Connects Countries" rel="bookmark">Cultural Understanding Connects Countries</a></h2>
+							</div>
+
+							<a href="http://highschoolglobe.com/cultural-understanding-connects-countries/" class="link-border">
+																<img src="http://highschoolglobe.com/wp-content/uploads/2015/03/PEACE-foto-2012-380x260.jpg" alt="Cultural Understanding Connects Countries">
+														<div class="mrg-chroma"></div>
+							</a>
+
+						</div> <!-- /mrg-box -->
+						
+					</div>
+
+				
+
+	</div>
+</div> <!-- /mrg-featured-area -->
+ 
+
+<div class="container container-content">
+	<div id="mrg-wrap" class="omega">
+		<div class="row"> 
+
+			<div id="mrg-content" class="col-md-8 col-feed">
+
+				<div class="unroll"><h3 class="pretitle"><span>Latest News</span></h3></div>
+
+				<div id="mrg-main-feed">
+					
+					
+						<div class="extract">
+							
+<div class="unroll-xs"><div id="mrg-poster-post">
+	<article id="post-312" class="post-312 post type-post status-publish format-standard has-post-thumbnail hentry category-global-issues category-high-school category-national-issues">
+		
+		<a href="http://highschoolglobe.com/the-new-slaves/">
+		<div class="mrg-chroma"></div>
+		<img width="1024" height="683" src="http://highschoolglobe.com/wp-content/uploads/2015/04/11a2834085def4d5f963e83abe4bb0e7.jpg" class="attachment-post-thumbnail wp-post-image" alt="11a2834085def4d5f963e83abe4bb0e7"></a>
+
+				<div class="meta-info">
+			<div class="mrg-color-cat color-cats"><a style="color:#fff; border-color:#666666; background:#666666;" class="featured-category" href="http://highschoolglobe.com/category/global-issues/">Global Issues</a> </div>			<h2><a href="http://highschoolglobe.com/the-new-slaves/" title="Permalink to The New Slaves" rel="bookmark">The New Slaves</a></h2>
+
+			<div class="entry-meta meta-buttons meta-buttons-w">
+				<time class="meta-date icon-date " datetime="2015-04-16T23:23:52+00:00">April 16, 2015</time>
+				<a href="http://highschoolglobe.com/the-new-slaves/#comments" class="icon-comments meta-com">0 </a>			</div>
+		</div>
+
+	</article>
+</div></div> 
+
+<div class="unroll"><hr class="mrg-sep"></div>						</div>
+
+					
+						<div class="extract">
+							
+<div class="unroll-xs"><div id="mrg-poster-post">
+	<article id="post-309" class="post-309 post type-post status-publish format-standard has-post-thumbnail hentry category-national-issues category-politics">
+		
+		<a href="http://highschoolglobe.com/cruz-control-breaking-down-the-2016-nominees/">
+		<div class="mrg-chroma"></div>
+		<img width="1280" height="673" src="http://highschoolglobe.com/wp-content/uploads/2015/04/flag-75047_1280.jpg" class="attachment-post-thumbnail wp-post-image" alt="flag-75047_1280"></a>
+
+				<div class="meta-info">
+			<div class="mrg-color-cat color-cats"><a style="color:#fff; border-color:#333; background:#333;" class="featured-category" href="http://highschoolglobe.com/category/national-issues/">National Issues</a> </div>			<h2><a href="http://highschoolglobe.com/cruz-control-breaking-down-the-2016-nominees/" title="Permalink to Cruz Control: Breaking Down the 2016 Nominees" rel="bookmark">Cruz Control: Breaking Down the 2016 Nominees</a></h2>
+
+			<div class="entry-meta meta-buttons meta-buttons-w">
+				<time class="meta-date icon-date " datetime="2015-04-14T16:19:16+00:00">April 14, 2015</time>
+				<a href="http://highschoolglobe.com/cruz-control-breaking-down-the-2016-nominees/#comments" class="icon-comments meta-com">0 </a>			</div>
+		</div>
+
+	</article>
+</div></div> 
+
+<div class="unroll"><hr class="mrg-sep"></div>						</div>
+
+					
+						<div class="extract">
+							
+<div class="unroll-xs"><div id="mrg-poster-post">
+	<article id="post-305" class="post-305 post type-post status-publish format-standard has-post-thumbnail hentry category-national-issues category-opinion category-politics">
+		
+		<a href="http://highschoolglobe.com/my-truth-beats-yours/">
+		<div class="mrg-chroma"></div>
+		<img width="1536" height="1021" src="http://highschoolglobe.com/wp-content/uploads/2015/04/o-NEWS-CAMERA-facebook.jpg" class="attachment-post-thumbnail wp-post-image" alt="o-NEWS-CAMERA-facebook"></a>
+
+				<div class="meta-info">
+			<div class="mrg-color-cat color-cats"><a style="color:#fff; border-color:#333; background:#333;" class="featured-category" href="http://highschoolglobe.com/category/national-issues/">National Issues</a> </div>			<h2><a href="http://highschoolglobe.com/my-truth-beats-yours/" title="Permalink to My Truth Beats Yours" rel="bookmark">My Truth Beats Yours</a></h2>
+
+			<div class="entry-meta meta-buttons meta-buttons-w">
+				<time class="meta-date icon-date " datetime="2015-04-10T23:43:32+00:00">April 10, 2015</time>
+				<a href="http://highschoolglobe.com/my-truth-beats-yours/#comments" class="icon-comments meta-com">0 </a>			</div>
+		</div>
+
+	</article>
+</div></div> 
+
+<div class="unroll"><hr class="mrg-sep"></div>						</div>
+
+					
+						<div class="extract">
+							
+<div class="unroll-xs"><div id="mrg-poster-post">
+	<article id="post-301" class="post-301 post type-post status-publish format-standard has-post-thumbnail hentry category-high-school category-lifestyle category-opinion">
+		
+		<a href="http://highschoolglobe.com/the-problem-of-privilege/">
+		<div class="mrg-chroma"></div>
+		<img width="2000" height="1000" src="http://highschoolglobe.com/wp-content/uploads/2015/04/o-RICH-PEOPLE-facebook.jpg" class="attachment-post-thumbnail wp-post-image" alt="o-RICH-PEOPLE-facebook"></a>
+
+				<div class="meta-info">
+			<div class="mrg-color-cat color-cats"><a style="color:#fff; border-color:#666666; background:#666666;" class="featured-category" href="http://highschoolglobe.com/category/high-school/">High School</a> </div>			<h2><a href="http://highschoolglobe.com/the-problem-of-privilege/" title="Permalink to The Problem of Privilege" rel="bookmark">The Problem of Privilege</a></h2>
+
+			<div class="entry-meta meta-buttons meta-buttons-w">
+				<time class="meta-date icon-date " datetime="2015-04-06T23:58:05+00:00">April 6, 2015</time>
+				<a href="http://highschoolglobe.com/the-problem-of-privilege/#comments" class="icon-comments meta-com">0 </a>			</div>
+		</div>
+
+	</article>
+</div></div> 
+
+<div class="unroll"><hr class="mrg-sep"></div>						</div>
+
+					
+						<div class="extract">
+							
+<div class="unroll-xs"><div id="mrg-poster-post">
+	<article id="post-297" class="post-297 post type-post status-publish format-standard has-post-thumbnail hentry category-global-issues category-opinion">
+		
+		<a href="http://highschoolglobe.com/cultural-understanding-connects-countries/">
+		<div class="mrg-chroma"></div>
+		<img width="960" height="720" src="http://highschoolglobe.com/wp-content/uploads/2015/03/PEACE-foto-2012.jpg" class="attachment-post-thumbnail wp-post-image" alt="PEACE foto 2012"></a>
+
+				<div class="meta-info">
+			<div class="mrg-color-cat color-cats"><a style="color:#fff; border-color:#666666; background:#666666;" class="featured-category" href="http://highschoolglobe.com/category/global-issues/">Global Issues</a> </div>			<h2><a href="http://highschoolglobe.com/cultural-understanding-connects-countries/" title="Permalink to Cultural Understanding Connects Countries" rel="bookmark">Cultural Understanding Connects Countries</a></h2>
+
+			<div class="entry-meta meta-buttons meta-buttons-w">
+				<time class="meta-date icon-date " datetime="2015-03-30T18:34:21+00:00">March 30, 2015</time>
+				<a href="http://highschoolglobe.com/cultural-understanding-connects-countries/#comments" class="icon-comments meta-com">0 </a>			</div>
+		</div>
+
+	</article>
+</div></div> 
+
+<div class="unroll"><hr class="mrg-sep"></div>						</div>
+
+					
+						<div class="extract">
+							
+<div class="unroll-xs"><div id="mrg-poster-post">
+	<article id="post-294" class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-global-issues category-uncategorized">
+		
+		<a href="http://highschoolglobe.com/iraqs-perpetual-violence/">
+		<div class="mrg-chroma"></div>
+		<img width="5616" height="3744" src="http://highschoolglobe.com/wp-content/uploads/2015/03/Mideast_Iraq_Violence.JPEG-.jpg" class="attachment-post-thumbnail wp-post-image" alt="Mideast Iraq Violence"></a>
+
+				<div class="meta-info">
+			<div class="mrg-color-cat color-cats"><a style="color:#fff; border-color:#666666; background:#666666;" class="featured-category" href="http://highschoolglobe.com/category/global-issues/">Global Issues</a> </div>			<h2><a href="http://highschoolglobe.com/iraqs-perpetual-violence/" title="Permalink to Iraq’s Perpetual Violence" rel="bookmark">Iraq’s Perpetual Violence</a></h2>
+
+			<div class="entry-meta meta-buttons meta-buttons-w">
+				<time class="meta-date icon-date " datetime="2015-03-25T23:57:45+00:00">March 25, 2015</time>
+				<a href="http://highschoolglobe.com/iraqs-perpetual-violence/#comments" class="icon-comments meta-com">0 </a>			</div>
+		</div>
+
+	</article>
+</div></div> 
+
+<div class="unroll"><hr class="mrg-sep"></div>						</div>
+
+					
+						<div class="extract">
+							
+<div class="unroll-xs"><div id="mrg-poster-post">
+	<article id="post-290" class="post-290 post type-post status-publish format-standard has-post-thumbnail hentry category-national-issues">
+		
+		<a href="http://highschoolglobe.com/the-phenomenon-of-accepted-ageism/">
+		<div class="mrg-chroma"></div>
+		<img width="1222" height="636" src="http://highschoolglobe.com/wp-content/uploads/2015/03/Screen-Shot-2015-03-16-at-8.40.15-PM.png" class="attachment-post-thumbnail wp-post-image" alt="Screen Shot 2015-03-16 at 8.40.15 PM"></a>
+
+				<div class="meta-info">
+			<div class="mrg-color-cat color-cats"><a style="color:#fff; border-color:#333; background:#333;" class="featured-category" href="http://highschoolglobe.com/category/national-issues/">National Issues</a> </div>			<h2><a href="http://highschoolglobe.com/the-phenomenon-of-accepted-ageism/" title="Permalink to The Phenomenon of Accepted Ageism" rel="bookmark">The Phenomenon of Accepted Ageism</a></h2>
+
+			<div class="entry-meta meta-buttons meta-buttons-w">
+				<time class="meta-date icon-date " datetime="2015-03-17T00:40:37+00:00">March 17, 2015</time>
+				<a href="http://highschoolglobe.com/the-phenomenon-of-accepted-ageism/#comments" class="icon-comments meta-com">0 </a>			</div>
+		</div>
+
+	</article>
+</div></div> 
+
+<div class="unroll"><hr class="mrg-sep"></div>						</div>
+
+					
+						<div class="extract">
+							
+<div class="unroll-xs"><div id="mrg-poster-post">
+	<article id="post-281" class="post-281 post type-post status-publish format-standard has-post-thumbnail hentry category-high-school">
+		
+		<a href="http://highschoolglobe.com/the-new-standards-of-standardized-testing/">
+		<div class="mrg-chroma"></div>
+		<img width="2500" height="1640" src="http://highschoolglobe.com/wp-content/uploads/2015/03/140305-sat-new-jsw-324p_d0d3fe989456a5d8b6110c3710ac6d06.jpg" class="attachment-post-thumbnail wp-post-image" alt="140305-sat-new-jsw-324p_d0d3fe989456a5d8b6110c3710ac6d06"></a>
+
+				<div class="meta-info">
+			<div class="mrg-color-cat color-cats"><a style="color:#fff; border-color:#666666; background:#666666;" class="featured-category" href="http://highschoolglobe.com/category/high-school/">High School</a> </div>			<h2><a href="http://highschoolglobe.com/the-new-standards-of-standardized-testing/" title="Permalink to The new standards of standardized testing" rel="bookmark">The new standards of standardized testing</a></h2>
+
+			<div class="entry-meta meta-buttons meta-buttons-w">
+				<time class="meta-date icon-date " datetime="2015-03-04T00:58:05+00:00">March 4, 2015</time>
+				<a href="http://highschoolglobe.com/the-new-standards-of-standardized-testing/#comments" class="icon-comments meta-com">0 </a>			</div>
+		</div>
+
+	</article>
+</div></div> 
+
+<div class="unroll"><hr class="mrg-sep"></div>						</div>
+
+					
+						<div class="extract">
+							
+<div class="unroll-xs"><div id="mrg-poster-post">
+	<article id="post-276" class="post-276 post type-post status-publish format-standard has-post-thumbnail hentry category-high-school category-sports">
+		
+		<a href="http://highschoolglobe.com/dont-haze-me-bro/">
+		<div class="mrg-chroma"></div>
+		<img width="620" height="438" src="http://highschoolglobe.com/wp-content/uploads/2015/02/078d4bf592897716.jpg" class="attachment-post-thumbnail wp-post-image" alt="-078d4bf592897716"></a>
+
+				<div class="meta-info">
+			<div class="mrg-color-cat color-cats"><a style="color:#fff; border-color:#666666; background:#666666;" class="featured-category" href="http://highschoolglobe.com/category/high-school/">High School</a> </div>			<h2><a href="http://highschoolglobe.com/dont-haze-me-bro/" title="Permalink to Don’t haze me, bro" rel="bookmark">Don’t haze me, bro</a></h2>
+
+			<div class="entry-meta meta-buttons meta-buttons-w">
+				<time class="meta-date icon-date " datetime="2015-02-25T01:05:22+00:00">February 25, 2015</time>
+				<a href="http://highschoolglobe.com/dont-haze-me-bro/#comments" class="icon-comments meta-com">0 </a>			</div>
+		</div>
+
+	</article>
+</div></div> 
+
+<div class="unroll"><hr class="mrg-sep"></div>						</div>
+
+					
+						<div class="extract">
+							
+<div class="unroll-xs"><div id="mrg-poster-post">
+	<article id="post-271" class="post-271 post type-post status-publish format-standard has-post-thumbnail hentry category-high-school category-national-issues">
+		
+		<a href="http://highschoolglobe.com/the-possibility-of-free-college/">
+		<div class="mrg-chroma"></div>
+		<img width="665" height="424" src="http://highschoolglobe.com/wp-content/uploads/2015/02/11030905-standard.jpg" class="attachment-post-thumbnail wp-post-image" alt="11030905-standard"></a>
+
+				<div class="meta-info">
+			<div class="mrg-color-cat color-cats"><a style="color:#fff; border-color:#666666; background:#666666;" class="featured-category" href="http://highschoolglobe.com/category/high-school/">High School</a> </div>			<h2><a href="http://highschoolglobe.com/the-possibility-of-free-college/" title="Permalink to The Possibility of Free College" rel="bookmark">The Possibility of Free College</a></h2>
+
+			<div class="entry-meta meta-buttons meta-buttons-w">
+				<time class="meta-date icon-date " datetime="2015-02-20T00:41:46+00:00">February 20, 2015</time>
+				<a href="http://highschoolglobe.com/the-possibility-of-free-college/#comments" class="icon-comments meta-com">0 </a>			</div>
+		</div>
+
+	</article>
+</div></div> 
+
+<div class="unroll"><hr class="mrg-sep"></div>						</div>
+
+									</div> <!-- /mrg-posts -->
+				
+<nav role="navigation" id="nav-below" class="site-navigation paging-navigation">
+
+					<div class="nav-previous"><a href="http://highschoolglobe.com/page/2/">← Older posts</a></div>
+
+		
+		
+</nav>
+
+			</div>
+
+					
+<!-- ======= Sidebar-->
+<div id="mrg-sidebar" class="col-md-4 col-sidebar assign-right">
+	<div id="secondary" class="widget-area" role="complementary">
+
+			<aside id="recent-posts-2" class="widget widget_recent_entries">		<div class="unroll"><h3 class="widget-title pretitle"><span>Recent</span></h3></div>		<ul>
+					<li>
+				<a href="http://highschoolglobe.com/the-new-slaves/">The New Slaves</a>
+						</li>
+					<li>
+				<a href="http://highschoolglobe.com/cruz-control-breaking-down-the-2016-nominees/">Cruz Control: Breaking Down the 2016 Nominees</a>
+						</li>
+					<li>
+				<a href="http://highschoolglobe.com/my-truth-beats-yours/">My Truth Beats Yours</a>
+						</li>
+					<li>
+				<a href="http://highschoolglobe.com/the-problem-of-privilege/">The Problem of Privilege</a>
+						</li>
+					<li>
+				<a href="http://highschoolglobe.com/cultural-understanding-connects-countries/">Cultural Understanding Connects Countries</a>
+						</li>
+				</ul>
+		</aside>
+	</div>
+
+</div>
+<!-- ======= /Sidebar--> 
+
+			
+		</div> <hr class="border-push col-md-push-8 visible-md visible-lg">
+	</div>
+</div>
+
+
+<!-- ============================= Footer Container -->
+<div id="footer">
+	<div class="container footer-container">
+
+		<nav class="btm-nav">
+		<ul id="footer-menu" class="sf-menu sf-js-enabled sf-arrows"><li class="home-menu current current-menu-item"><a href="http://highschoolglobe.com/" title="Home">Home</a> </li><li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="http://highschoolglobe.com/about/">About</a> </li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="http://highschoolglobe.com/jobs/">Work WIth Us</a> </li>
+<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="http://highschoolglobe.com/contact-us/">Contact Us</a> </li>
+<li id="menu-item-50" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50"><a href="http://highschoolglobe.com/terms-of-service/">Terms of Service</a> </li>
+<li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="http://highschoolglobe.com/privacy/">Privacy</a> </li>
+</ul>		</nav>
+
+		<div id="mrg-footer" class="omega">
+			<div class="row footer-cols">
+			
+<div class="logo-section col-md-4">
+			<h2 class="logo-footer"><a href="http://highschoolglobe.com/" title="High School Globe" rel="home">High School Globe</a></h2>
+	
+	<p class="site-description">An UGT Publication</p>
+
+	
+	<div class="unroll"><p class="copy"></p></div>
+</div> <hr class="border-push col-md-push-4 visible-md visible-lg"> <!-- /col-1 -->
+ 
+
+
+
+<div class="col-md-4">
+	
+<aside id="margot_icons_widget-3" class="widget widget_margot_icons"><h3 class="widget-title">Connect With Us</h3>
+
+  <div class="mini-icons"><a href="https://twitter.com/highschoolglobe"><i class="icon-twitter"><span class="hide">twitter</span></i></a><a href="https://www.facebook.com/pages/The-High-School-Globe/677268769031391"><i class="icon-facebook"><span class="hide">facebook</span></i></a></div><div class="clearfix"></div>
+
+</aside> </div> <!-- /col-3 -->
+			</div>
+		</div>
+	</div>
+</div>
+<!-- ============================= /Footer Container -->
+
+ <!--[if lt IE 9]>
+<script src="http://highschoolglobe.com/wp-content/themes/Margot/js/excanvas.js"></script>
+<script src="http://highschoolglobe.com/wp-content/themes/Margot/js/respond.min.js"></script>
 <![endif]-->
 
-<!-- Our Website Content Goes Here -->
-<div ng-include='"templates/header.html"'></div>
-<div ng-view></div>
-<div ng-include='"templates/footer.html"'></div>
 
-<!-- Vendor: Javascripts -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://highschoolglobe.com/wp-content/themes/Margot/js/lib.js?ver=1.1"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var mrgvars = {"loadingimg":"http:\/\/highschoolglobe.com\/wp-content\/themes\/Margot\/img\/ajax-loader.gif","loadmsg":"Loading posts...","nomsg":"No posts"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://highschoolglobe.com/wp-content/themes/Margot/js/init.js?ver=1.1"></script>
 
-<!-- Vendor: Angular, followed by our custom Javascripts -->
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+</div>
+</div>
 
-<!-- Our Website Javascripts -->
-<script src="js/main.js"></script>
-
-</body>
-</html>
+ 
+<div id="sidr" class="sidr left"><div class="sidr-inner">
+            <ul id="sidr-id-header-menu" class="sidr-class-sf-menu"><li class="sidr-class-home-menu sidr-class-current sidr-class-current-menu-item"><a href="http://highschoolglobe.com/" title="Home">Home</a></li><li id="sidr-id-menu-item-8" class="sidr-class-menu-item sidr-class-menu-item-type-taxonomy sidr-class-menu-item-object-category sidr-class-menu-item-8"><a href="http://highschoolglobe.com/category/global-issues/">Global Issues</a></li>
+<li id="sidr-id-menu-item-11" class="sidr-class-menu-item sidr-class-menu-item-type-taxonomy sidr-class-menu-item-object-category sidr-class-menu-item-11"><a href="http://highschoolglobe.com/category/politics/">Politics</a></li>
+<li id="sidr-id-menu-item-98" class="sidr-class-menu-item sidr-class-menu-item-type-taxonomy sidr-class-menu-item-object-category sidr-class-menu-item-98"><a href="http://highschoolglobe.com/category/business/">Business</a></li>
+<li id="sidr-id-menu-item-12" class="sidr-class-menu-item sidr-class-menu-item-type-taxonomy sidr-class-menu-item-object-category sidr-class-menu-item-12"><a href="http://highschoolglobe.com/category/science/">Science and Technology</a></li>
+<li id="sidr-id-menu-item-10" class="sidr-class-menu-item sidr-class-menu-item-type-taxonomy sidr-class-menu-item-object-category sidr-class-menu-item-10"><a href="http://highschoolglobe.com/category/lifestyle/">Lifestyle</a></li>
+<li id="sidr-id-menu-item-9" class="sidr-class-menu-item sidr-class-menu-item-type-taxonomy sidr-class-menu-item-object-category sidr-class-menu-item-9"><a href="http://highschoolglobe.com/category/high-school/">High School</a></li>
+<li id="sidr-id-menu-item-7" class="sidr-class-menu-item sidr-class-menu-item-type-taxonomy sidr-class-menu-item-object-category sidr-class-menu-item-7"><a href="http://highschoolglobe.com/category/books/">Books</a></li>
+</ul>        </div></div><div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="http://static.ak.facebook.com/connect/xd_arbiter/KTWTb9MY5lw.js?version=41#channel=f33f25d46&amp;origin=http%3A%2F%2Fhighschoolglobe.com" style="border: none;"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://s-static.ak.facebook.com/connect/xd_arbiter/KTWTb9MY5lw.js?version=41#channel=f33f25d46&amp;origin=http%3A%2F%2Fhighschoolglobe.com" style="border: none;"></iframe></div></div></div></body></html>
